@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1 id="score"></h1>
+        <p id="timer"></p>
+        <h4 id="num"></h4>
+        <h2 id="question">Question Text</h2>
+        <div id="options" class="option-container">
+            <!-- Options will be populated dynamically here -->
+        </div>
+        <button id="submitBtn" onclick="checkAnswer()">Skip</button>
+        <p>Click on option to submit</p>
+        <p id="feedback"></p>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
